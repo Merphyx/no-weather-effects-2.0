@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "noweathereffects",
+  "version": "${version}",
+  "name": "No Weather Effects",
+  "description": "Disables client-side weather effects",
+  "authors": [
+    "Lortseam",
+    "Merphyx"
+  ],
+  "contact": {
+    "email": "lortseam@gmail.com",
+    "sources": "https://github.com/Lortseam/no-weather-effects",
+    "issues": "https://github.com/Lortseam/no-weather-effects/issues"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/noweathereffects/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.lortseam.noweathereffects.NoWeatherEffects"
+    ],
+    "modmenu": [
+      "me.lortseam.noweathereffects.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "noweathereffects.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric-api": "*",
+    "minecraft": ">=1.21.5",
+    "java": ">=21"
+  }
+}

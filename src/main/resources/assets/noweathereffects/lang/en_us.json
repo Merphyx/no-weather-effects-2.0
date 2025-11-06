@@ -1,0 +1,6 @@
+{
+  "text.autoconfig.noweathereffects.title": "No Weather Effects - Settings",
+  "text.autoconfig.noweathereffects.option.toggleWeather": "Disable Weather Effects",
+  "text.autoconfig.noweathereffects.option.toggleWeather.@Tooltip": "Turn this on to hide all weather-related visual effects (rain, snow, etc.).",
+  "configscreen.noweathereffects.info": "The mod \"No Weather Effects\" requires Cloth Config\nto display its configuration screen.\nPlease install \"cloth-config-fabric\" via Modrinth or CurseForge."
+}
